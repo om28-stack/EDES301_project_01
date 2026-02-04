@@ -1,12 +1,36 @@
 # EDES301 Project 01
 
+Embedded Systems Digital I/O project for ATmega324PB.
+
 ## Project Overview
-Basic microcontroller project for EDES301 course.
+This project implements a digital I/O system with the following features:
+- LED control
+- Button input handling
+- Timer-based operations
 
-## Structure
-- `/src` - Source code files
-- `/include` - Header files
-- `/docs` - Documentation
+## Hardware Requirements
+- ATmega324PB microcontroller
+- LEDs (various colors)
+- Push buttons
+- Supporting passive components
 
-## Setup
-Instructions will be added as project develops.
+## Software Tools
+- AVR-GCC compiler
+- AVRDUDE programmer
+- VSCode with C/C++ extensions
+
+## Building
+```bash
+make clean
+make
+```
+
+## Programming
+```bash
+make program
+```
+
+## Project Structure
+- `src/` - Source files
+- `inc/` - Header files
+- `Makefile` - Build configuration
