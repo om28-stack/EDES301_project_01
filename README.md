@@ -1,15 +1,12 @@
 # EDES301 Project 01
 
-Embedded Systems Design Project
-
 ## Project Overview
-This repository contains the files and documentation for EDES301 Project 01.
+Basic microcontroller project for EDES301 course.
 
 ## Structure
 - `/src` - Source code files
-- `/docs` - Documentation and project files
 - `/include` - Header files
-- `/lib` - Libraries
+- `/docs` - Documentation
 
-## Getting Started
-Instructions will be added as the project develops.
+## Setup
+Instructions will be added as project develops.
